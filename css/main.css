@@ -1,0 +1,47 @@
+body{
+	font-family: Arial;
+	}
+
+a{
+	text-decoration: none;
+}
+
+.logo{
+	height: 35px;
+	width: 130px;
+}
+
+nav a{
+	font-size: 12px;
+	margin-right: 10px;
+}
+
+.text-gray{
+	color: gray;
+}
+
+.cuerpo{
+	margin-top: 5px;
+	background-color: #808080;
+	color: white;
+	padding: 4%;	
+}
+
+.cuerpo h1{
+	font-size: 50px;
+}
+
+.cuerpo p{
+	font-size: 13px;
+	padding:4% 0;
+}
+
+input{
+	display: block;
+	width: 200px;
+	
+}
+
+.form{
+	background-color: #9a9a9a;
+}
