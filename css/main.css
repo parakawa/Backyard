@@ -39,7 +39,15 @@ nav a{
 input{
 	display: block;
 	width: 200px;
-	
+	padding: 4px;	
+	margin: 5px;
+
+}
+
+.subscribe{
+	background-color: #3eb0f7;
+	color: white;
+	text-align: center;
 }
 
 .form{
