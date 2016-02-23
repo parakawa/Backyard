@@ -23,6 +23,7 @@ nav a{
 
 nav{
 	float: right;
+	padding: 10px 0;
 }
 
 .text-gray{
@@ -50,8 +51,6 @@ input{
 	width: 250px;
 	padding: 6px;	
 	margin: 7px auto;
-
-
 }
 
 .subscribe{
@@ -78,4 +77,23 @@ footer{
 	font-size: 1rem;
 	color: gray;
 	margin-top: 14px;
+}
+
+@media(max-width: 535px){
+	.container{
+		width: 100%;
+	}
+	
+
+	header{
+		margin-left: 25px;
+	}
+
+	.col-6,form,input{
+		width: 100%;	
+		}
+
+	footer{
+		margin-left: 30px;
+	}
 }
