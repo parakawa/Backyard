@@ -1,19 +1,28 @@
 body{
 	font-family: Arial;
+	font-size: 10px;
 	}
 
 a{
 	text-decoration: none;
 }
 
+header{
+	margin: 10px 0;
+}
+
 .logo{
-	height: 35px;
-	width: 130px;
+	height: 40px;
+	width: 180px;
 }
 
 nav a{
-	font-size: 12px;
+	font-size: 1rem;
 	margin-right: 10px;
+}
+
+nav{
+	float: right;
 }
 
 .text-gray{
@@ -21,26 +30,27 @@ nav a{
 }
 
 .cuerpo{
-	margin-top: 5px;
 	background-color: #808080;
 	color: white;
 	padding: 4%;	
 }
 
 .cuerpo h1{
-	font-size: 50px;
+	font-size: 3.5rem;
 }
 
 .cuerpo p{
-	font-size: 13px;
-	padding:4% 0;
+	font-size: 1rem;
+	padding:6% 0;
 }
 
 input{
+	font-size: 1rem;
 	display: block;
-	width: 200px;
-	padding: 4px;	
-	margin: 5px;
+	width: 250px;
+	padding: 6px;	
+	margin: 7px auto;
+
 
 }
 
@@ -48,8 +58,24 @@ input{
 	background-color: #3eb0f7;
 	color: white;
 	text-align: center;
+	border: none;
 }
 
-.form{
+form{
 	background-color: #9a9a9a;
+	padding: 5% 3%;
+	border-radius: 8px;
+	width: 300px;
+	float: right;
+}
+
+form h3{
+	font-size: 1.4rem;
+	text-align: center;
+}
+
+footer{
+	font-size: 1rem;
+	color: gray;
+	margin-top: 14px;
 }
